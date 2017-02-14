@@ -1,0 +1,15 @@
+<% if (page.link){ %>
+  <h1 itemprop="name">
+    <a class="<%= class_name %>" href="<%- url_for(page.link) %>" target="_blank" itemprop="url"><%= page.title %></a>
+  </h1>
+<% } else if (page.title){ %>
+  <% if (index){ %>
+    <h1 itemprop="name">
+      <a class="<%= class_name %>" href="<%- url_for(page.path) %>"><%= page.title %></a>
+    </h1>
+  <% } else { %>
+    <h1 class="<%= class_name %>" itemprop="name">
+      <%= page.title %>
+    </h1>
+  <% } %>
+<% } %>

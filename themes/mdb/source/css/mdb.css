@@ -13924,6 +13924,8 @@ button.picker__close:focus {
     margin-left: 6%;
     margin-right: 6%; } }
 
+
+.
 .hidden-sn main {
   padding-top: 5.5rem; }
 
@@ -14082,3 +14084,8 @@ button.picker__close:focus {
     margin-bottom: 0;
     height: 1.3rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+
+.section-blog-fw .bottom-shares {
+  text-align:center;
+}
