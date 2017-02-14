@@ -1,0 +1,10 @@
+<%- partial('_partial/head') %>
+<body class="fixed-sn light-grey-skin">
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <main><%- body %></main>
+
+      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/after-footer') %>
+  </div>
+</body>
+</html>

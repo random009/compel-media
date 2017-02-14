@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+
+</head>
+
+<body class="fixed-sn light-grey-skin">
+         <header>
+       
+        <!--Sidebar navigation-->
+        <ul id="slide-out" class="side-nav fixed custom-scrollbar">
+
+            <!--Logo-->
+            <li>
+                <div class="logo-wrapper waves-light">
+                    <a href="#"><img src="images/logo-vertical2.png" class="img-fluid flex-center"></a>
+                </div>
+            </li>
+            <!--/Logo-->
+            
+            <!--Search form-->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group waves-light waves-effect waves-light">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </li>
+            <!--/Search form-->
+
+            <!--Side navigation links-->
+            <ul class="collapsible collapsible-accordion">
+               
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-camera"></i> Photography<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body"> 
+                        <ul>
+                            <li><a href="#" class="waves-effect">Landscapes</a> 
+                            </li>
+                            <li><a href="#" class="waves-effect">Portraits</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Street photos</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Architecture</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Photo tips</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Equipment</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-plane"></i> Travels<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Madagascar 2016</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Australia and Oceania</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">European trip</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Grand Canyon 2015</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">RPA Adventure</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">One year in Argentina</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-paw"></i> Pets<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Care of cat</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Travel with pets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-map"></i> Expeditions<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Let's travel together</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">How it looks?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-music"></i> Music<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Concert photos</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">The best festivals</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-coffee"></i> Lifestyle<i class="fa fa-angle-down rotate-icon"></i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li><a href="#" class="waves-effect">Art studies in New York</a>
+                            </li>
+                            <li><a href="#" class="waves-effect">Volunteering in Africa</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                
+            </ul>
+            <!--/Side navigation links-->
+
+        </ul>
+        <!--/Sidebar navigation-->
+
+        
+
+        <!--Modal Contact-->
+        <div class="modal fade modal-ext" id="modal-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="myModalLabel">Write to us</h4>
+                    </div>
+                    <!--Body-->
+                    <div class="modal-body">
+                        <p>We like to receive a messages.</p>
+                        <br>
+                        <div class="md-form">
+                            <i class="fa fa-user prefix"></i>
+                            <input type="text" id="form22" class="form-control">
+                            <label for="form42">Your name</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix"></i>
+                            <input type="text" id="form32" class="form-control">
+                            <label for="form34">Your email</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-tag prefix"></i>
+                            <input type="text" id="form32" class="form-control">
+                            <label for="form34">Subject</label>
+                        </div>
+
+                        <div class="md-form">
+                            <i class="fa fa-pencil prefix"></i>
+                            <textarea type="text" id="form8" class="md-textarea"></textarea>
+                            <label for="form8">Icon Prefix</label>
+                        </div>
+
+                        <div class="text-xs-center">
+                            <button class="btn btn-primary">Submit</button>
+
+                            <div class="call">
+                                <p>Or would you prefer to call? <span class="cf-phone"><i class="fa fa-phone"></i>+01 234 565 280</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                <!--/Content-->
+            </div>
+        </div>
+        <!--/Modal contact-->
+        
+    </header>
+      <main>
+  
+            <div class="container">
+            
+            <!--Blog-->
+            <div class="row">
+                <!--Main listing-->
+                <div class="col-md-12">
+                    
+                    <!--Section: Post-->
+                    <section class="section section-blog-fw"> 
+
+                        <!--First row-->
+                        <div class="row">
+                           
+                            <div class="col-md-12">
+
+  <!--Featured image-->
+       
+        <img src="/images/pic1.jpg" itemprop="image" class="wow fadeIn">
+
+
+
+             
+
+                                <!--Post data-->
+<div class="jumbotron wow fadeIn" data-wow-delay="0.3s">
+
+        <h2>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/14/test/">Test Post/Page</a>
+    </h1>
+  
+</h2>
+
+        <p>Written by <a href="#!" class="black-text">John Casement</a> on <a href="/2017/02/14/test/" class="article-date">
+  <time datetime="2017-02-14T09:10:09.000Z" itemprop="datePublished">2017-02-14</time>
+</a> in 
+    <a class="article-category-link" href="/categories/General/">General</a>
+</p>
+
+    <!--Social shares-->
+                                    <div class="social-counters">
+
+                                        <!--Facebook-->
+                                        <a class="btn btn-fb">
+                                            <i class="fa fa-facebook left"></i>
+                                            <span class="hidden-md-down ">Facebook</span>
+                                        </a>
+                                        <span class="counter">98</span>
+
+                                        <!--Twitter-->
+                                        <a class="btn btn-tw">
+                                            <i class="fa fa-twitter left"></i>
+                                            <span class="hidden-md-down">Twitter</span>
+                                        </a>
+                                        <span class="counter">75</span>
+
+                                        <!--Google+-->
+                                        <a class="btn btn-gplus">
+                                            <i class="fa fa-google-plus left"></i>
+                                            <span class="hidden-md-down">Google+</span>
+                                        </a>
+                                        <span class="counter">87</span>
+
+                                        <!--Comments-->
+                                        <a class="btn btn-mdb">
+                                            <i class="fa fa-comments-o left"></i>
+                                            <span class="hidden-md-down">Comments</span>
+                                        </a>
+                                        <span class="counter">149</span>
+
+                                    </div>
+                                    <!--/.Social shares-->
+
+                                </div>
+                                <!--/Post data-->
+
+<!--Post text-->
+   <div class="post-text wow fadeIn" data-wow-delay="0.3s">
+      
+        
+      
+    </div>
+  <!--/Post text-->
+
+
+    <hr class="wow fadeIn" data-wow-delay="0.3s">
+
+                                <div class="text-xs-center wow fadeIn" data-wow-delay="0.3s">
+                                    <h3 class="h3-responsive">Do you want to share?</h3>
+<!--Facebook-->
+      <a data-url="/2017/02/14/test/" data-id="ciz5d6p3o0001js7k0futf7ad" target="_blank" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"> </i>Partager</a>
+
+      <!--Twitter-->
+      <a data-url="/2017/02/14/test/" data-id="ciz5d6p3o0001js7k0futf7ad" target="_blank" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i>Partager</a>
+
+      <!--Google +-->
+      <a data-url="/2017/02/14/test/" data-id="ciz5d6p3o0001js7k0futf7ad" target="_blank" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"> </i>Partager</a>
+</div>
+
+</div>
+
+</div>
+
+                        
+                    </section>
+                    <!--/.Section: Post-->
+
+                    <!--Section: About author-->
+                    <section class="mb-4 wow fadeIn" data-wow-delay="0.3s">
+                        <!--Author box-->
+                        <div class="author-box blog-author-box">
+
+                            <div class="row">
+
+                                <!--Avatar-->
+                                <div class="col-xs-12 col-sm-3">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(4).jpg" class="img-fluid rounded-circle z-depth-2">
+                                </div>
+
+                                <!--Author Data-->
+                                <div class="col-xs-12 col-sm-9">
+
+                                    <h4><strong>Martha Barnett</strong></h4>
+
+                                    <div class="personal-sm">
+                                        <a class="email-ic"><i class="fa fa-home"> </i></a>
+                                        <a href="https://www.facebook.com/mdbootstrap" target="_blank" class="fb-ic"><i class="fa fa-facebook"> </i></a>
+                                        <a href="https://twitter.com/MDBootstrap" target="_blank" class="tw-ic"><i class="fa fa-twitter"> </i></a>
+                                        <a href="https://plus.google.com/u/0/+Mdbootstrap" target="_blank" class="gplus-ic"><i class="fa fa-google-plus"> </i></a>
+                                        <a href="https://www.linkedin.com/in/michal-szymanski-9228918a" target="_blank" class="li-ic"><i class="fa fa-linkedin"> </i></a>
+                                        <a class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                    </div>
+                                    
+                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad autem vel eum iure reprehenderit qui in ea minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--/.Author box-->
+                    </section>
+                    <!--/.Section: About author-->
+
+                    <!--Section: Comments list-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Main wrapper-->
+                        <div class="comments-list">
+                            <div class="section-heading">
+                                <h1>Comments <span class="tag blue">3</span></h1>
+                            </div>
+                            <!--First row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-1.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">John Doe</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.First row-->
+
+                            <!--Second row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-2.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Marta Tev</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Second row-->
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(1).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Anna Maria</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 26/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+                                    </p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+
+                        </div>
+                        <!--/.Main wrapper-->
+
+                    </section>
+                    <!--/Section: Comments list-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Logged In User)</p>
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(3).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                        <label for="form8">Your message</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-xs-center">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Logged In User)-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Not Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Not Logged In User)</p>
+
+                            <h4>Sign up with: <span>
+                                <!--Facebook-->
+                            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+                            </span> <br><br>or:</h4>
+
+                            <div class="md-form">
+                                <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form22" class="form-control">
+                                <label for="form22">Your name</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form32" class="form-control">
+                                <label for="form32">Your email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-home prefix"></i>
+                                <input type="text" id="form33" class="form-control">
+                                <label for="form33">Your website</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form18" class="md-textarea"></textarea>
+                                <label for="form18">Your message</label>
+                            </div>
+
+                            <div class="text-xs-center">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Not Logged In User)-->
+
+     <!--Section: Comments list-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Main wrapper-->
+                        <div class="comments-list">
+                            <div class="section-heading">
+                                <h1>Comments <span class="tag blue">3</span></h1>
+                            </div>
+                            <!--First row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-1.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">John Doe</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.First row-->
+
+                            <!--Second row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-2.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Marta Tev</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Second row-->
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(1).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Anna Maria</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 26/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+                                    </p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+
+                        </div>
+                        <!--/.Main wrapper-->
+
+                    </section>
+                    <!--/Section: Comments list-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Logged In User)</p>
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(3).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                        <label for="form8">Your message</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-xs-center">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Logged In User)-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Not Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Not Logged In User)</p>
+
+                            <h4>Sign up with: <span>
+                                <!--Facebook-->
+                            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+                            </span> <br><br>or:</h4>
+
+                            <div class="md-form">
+                                <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form22" class="form-control">
+                                <label for="form22">Your name</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form32" class="form-control">
+                                <label for="form32">Your email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-home prefix"></i>
+                                <input type="text" id="form33" class="form-control">
+                                <label for="form33">Your website</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form18" class="md-textarea"></textarea>
+                                <label for="form18">Your message</label>
+                            </div>
+
+                            <div class="text-xs-center">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Not Logged In User)-->
+                    
+                </div>
+                <!--/.Main listing-->
+                
+            </div>
+            <!--/.Blog-->
+            
+        </div>
+
+  
+            <div class="container">
+            
+            <!--Blog-->
+            <div class="row">
+                <!--Main listing-->
+                <div class="col-md-12">
+                    
+                    <!--Section: Post-->
+                    <section class="section section-blog-fw"> 
+
+                        <!--First row-->
+                        <div class="row">
+                           
+                            <div class="col-md-12">
+
+  <!--Featured image-->
+    
+
+
+             
+
+                                <!--Post data-->
+<div class="jumbotron wow fadeIn" data-wow-delay="0.3s">
+
+        <h2>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/13/hello-world/">Hello World</a>
+    </h1>
+  
+</h2>
+
+        <p>Written by <a href="#!" class="black-text">John Casement</a> on <a href="/2017/02/13/hello-world/" class="article-date">
+  <time datetime="2017-02-14T05:43:24.869Z" itemprop="datePublished">2017-02-13</time>
+</a> in </p>
+
+    <!--Social shares-->
+                                    <div class="social-counters">
+
+                                        <!--Facebook-->
+                                        <a class="btn btn-fb">
+                                            <i class="fa fa-facebook left"></i>
+                                            <span class="hidden-md-down ">Facebook</span>
+                                        </a>
+                                        <span class="counter">98</span>
+
+                                        <!--Twitter-->
+                                        <a class="btn btn-tw">
+                                            <i class="fa fa-twitter left"></i>
+                                            <span class="hidden-md-down">Twitter</span>
+                                        </a>
+                                        <span class="counter">75</span>
+
+                                        <!--Google+-->
+                                        <a class="btn btn-gplus">
+                                            <i class="fa fa-google-plus left"></i>
+                                            <span class="hidden-md-down">Google+</span>
+                                        </a>
+                                        <span class="counter">87</span>
+
+                                        <!--Comments-->
+                                        <a class="btn btn-mdb">
+                                            <i class="fa fa-comments-o left"></i>
+                                            <span class="hidden-md-down">Comments</span>
+                                        </a>
+                                        <span class="counter">149</span>
+
+                                    </div>
+                                    <!--/.Social shares-->
+
+                                </div>
+                                <!--/Post data-->
+
+<!--Post text-->
+   <div class="post-text wow fadeIn" data-wow-delay="0.3s">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+  <!--/Post text-->
+
+
+    <hr class="wow fadeIn" data-wow-delay="0.3s">
+
+                                <div class="text-xs-center wow fadeIn" data-wow-delay="0.3s">
+                                    <h3 class="h3-responsive">Do you want to share?</h3>
+<!--Facebook-->
+      <a data-url="/2017/02/13/hello-world/" data-id="ciz5d6p380000js7kgwjxv369" target="_blank" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"> </i>Partager</a>
+
+      <!--Twitter-->
+      <a data-url="/2017/02/13/hello-world/" data-id="ciz5d6p380000js7kgwjxv369" target="_blank" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i>Partager</a>
+
+      <!--Google +-->
+      <a data-url="/2017/02/13/hello-world/" data-id="ciz5d6p380000js7kgwjxv369" target="_blank" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"> </i>Partager</a>
+</div>
+
+</div>
+
+</div>
+
+                        
+                    </section>
+                    <!--/.Section: Post-->
+
+                    <!--Section: About author-->
+                    <section class="mb-4 wow fadeIn" data-wow-delay="0.3s">
+                        <!--Author box-->
+                        <div class="author-box blog-author-box">
+
+                            <div class="row">
+
+                                <!--Avatar-->
+                                <div class="col-xs-12 col-sm-3">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(4).jpg" class="img-fluid rounded-circle z-depth-2">
+                                </div>
+
+                                <!--Author Data-->
+                                <div class="col-xs-12 col-sm-9">
+
+                                    <h4><strong>Martha Barnett</strong></h4>
+
+                                    <div class="personal-sm">
+                                        <a class="email-ic"><i class="fa fa-home"> </i></a>
+                                        <a href="https://www.facebook.com/mdbootstrap" target="_blank" class="fb-ic"><i class="fa fa-facebook"> </i></a>
+                                        <a href="https://twitter.com/MDBootstrap" target="_blank" class="tw-ic"><i class="fa fa-twitter"> </i></a>
+                                        <a href="https://plus.google.com/u/0/+Mdbootstrap" target="_blank" class="gplus-ic"><i class="fa fa-google-plus"> </i></a>
+                                        <a href="https://www.linkedin.com/in/michal-szymanski-9228918a" target="_blank" class="li-ic"><i class="fa fa-linkedin"> </i></a>
+                                        <a class="email-ic"><i class="fa fa-envelope-o"> </i></a>
+                                    </div>
+                                    
+                                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad autem vel eum iure reprehenderit qui in ea minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--/.Author box-->
+                    </section>
+                    <!--/.Section: About author-->
+
+                    <!--Section: Comments list-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Main wrapper-->
+                        <div class="comments-list">
+                            <div class="section-heading">
+                                <h1>Comments <span class="tag blue">3</span></h1>
+                            </div>
+                            <!--First row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-1.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">John Doe</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.First row-->
+
+                            <!--Second row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-2.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Marta Tev</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Second row-->
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(1).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Anna Maria</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 26/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+                                    </p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+
+                        </div>
+                        <!--/.Main wrapper-->
+
+                    </section>
+                    <!--/Section: Comments list-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Logged In User)</p>
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(3).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                        <label for="form8">Your message</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-xs-center">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Logged In User)-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Not Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Not Logged In User)</p>
+
+                            <h4>Sign up with: <span>
+                                <!--Facebook-->
+                            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+                            </span> <br><br>or:</h4>
+
+                            <div class="md-form">
+                                <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form22" class="form-control">
+                                <label for="form22">Your name</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form32" class="form-control">
+                                <label for="form32">Your email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-home prefix"></i>
+                                <input type="text" id="form33" class="form-control">
+                                <label for="form33">Your website</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form18" class="md-textarea"></textarea>
+                                <label for="form18">Your message</label>
+                            </div>
+
+                            <div class="text-xs-center">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Not Logged In User)-->
+
+     <!--Section: Comments list-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Main wrapper-->
+                        <div class="comments-list">
+                            <div class="section-heading">
+                                <h1>Comments <span class="tag blue">3</span></h1>
+                            </div>
+                            <!--First row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-1.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">John Doe</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.First row-->
+
+                            <!--Second row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/avatar-2.jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Marta Tev</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 27/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Second row-->
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(1).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <a><h3 class="user-name">Anna Maria</h3></a>
+
+                                    <div class="card-data">
+                                        <ul>
+                                            <li class="comment-date"><i class="fa fa-clock-o"></i> 26/06/2015</li>
+                                        </ul>
+                                    </div>
+
+                                    <p class="comment-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+                                    </p>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+
+                        </div>
+                        <!--/.Main wrapper-->
+
+                    </section>
+                    <!--/Section: Comments list-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Logged In User)</p>
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--Image column-->
+                                <div class="col-sm-2 col-xs-12">
+                                    <img src="http://mdbootstrap.com/images/avatars/img%20(3).jpg">
+                                </div>
+                                <!--/.Image column-->
+
+                                <!--Content column-->
+                                <div class="col-sm-10 col-xs-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="form8" class="md-textarea"></textarea>
+                                        <label for="form8">Your message</label>
+                                    </div>
+
+                                </div>
+
+                                <div class="text-xs-center">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                                <!--/.Content column-->
+
+                            </div>
+                            <!--/.Third row-->
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Logged In User)-->
+                    
+                    <hr class="between-sections wow fadeIn" data-wow-delay="0.3s">
+                    
+                    <!--Section: Leave a reply (Not Logged In User)-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+
+                        <!--Leave a reply form-->
+                        <div class="reply-form">
+                            <h1 class="section-heading">Leave a reply </h1>
+                            <p class="text-xs-center">(Not Logged In User)</p>
+
+                            <h4>Sign up with: <span>
+                                <!--Facebook-->
+                            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+                            <!--Twitter-->
+                            <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+                            <!--Google +-->
+                            <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"></i></a>
+
+                            </span> <br><br>or:</h4>
+
+                            <div class="md-form">
+                                <i class="fa fa-user prefix"></i>
+                                <input type="text" id="form22" class="form-control">
+                                <label for="form22">Your name</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix"></i>
+                                <input type="text" id="form32" class="form-control">
+                                <label for="form32">Your email</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-home prefix"></i>
+                                <input type="text" id="form33" class="form-control">
+                                <label for="form33">Your website</label>
+                            </div>
+
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix"></i>
+                                <textarea type="text" id="form18" class="md-textarea"></textarea>
+                                <label for="form18">Your message</label>
+                            </div>
+
+                            <div class="text-xs-center">
+                                <button class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                        <!--/.Leave a reply form-->
+
+                    </section>
+                    <!--/Section: Leave a reply (Not Logged In User)-->
+                    
+                </div>
+                <!--/.Main listing-->
+                
+            </div>
+            <!--/.Blog-->
+            
+        </div>
+
+  
+
+</main>
+
+      <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+        
+        <!--Footer Links-->
+        <div class="container">
+           
+            <!--First row-->
+            <div class="row">
+               
+                <!--First column-->
+                <div class="col-xl-4 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <!--About-->
+                    <h5 class="title">ABOUT MATERIAL DESIGN</h5>
+                    
+                    <p>Material Design (codenamed Quantum Paper) is a design language developed by Google.</p>
+
+                    <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+                    <!--/About -->
+                </div>
+                <!--/First column-->
+
+                <hr class="hidden-lg-up wow fadeIn" data-wow-delay="0.3s">
+                
+                <!--Second column-->
+                <div class="col-xl-4 col-lg-4 text-xs-center wow fadeIn" data-wow-delay="0.3s">
+                    <!--Contact-->
+                    <h5 class="title">Contact info</h5>     
+                    
+                    <p>New York, NY 10012<br>
+                    United States<br>
+                    + 01 234 567 89<br>
+                    info@gmail.com</p>  
+                    <!-- Contact -->  
+                    
+                    <!--Facebook-->
+                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+                    <!--Twitter-->
+                    <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"></i></a>
+                    <!--Linkedin-->
+                    <a type="button" class="btn-floating btn-small btn-li"><i class="fa fa-linkedin"></i></a>
+                    
+                </div>
+                <!--/Second column-->
+                
+                <hr class="hidden-lg-up wow fadeIn" data-wow-delay="0.3s">
+                
+                <!--Third column-->
+                <div class="col-xl-4 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <!--Image-->
+                    <div class="view hm-black-strong">
+                        <img src="http://mdbootstrap.com/images/regular/people/img%20(26).jpg" class="img-fluid">
+                        <a href="#!" class="mask flex-center">
+                            <p class="white-text text-xs-center">Read about my open expeditions</p>
+                        </a>
+                    </div>
+                </div>
+                <!--/Third column-->
+                
+            </div>
+            <!--/First row-->
+            
+        </div>
+        <!--/Footer Links-->
+        
+        <br>
+
+        <!--Copyright-->
+        <div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+            </div>
+        </div>
+        <!--/Copyright-->
+        
+    </footer>
+    <!--/Footer-->
+    
+
+<!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<!-- SCRIPTS -->
+
+    
+
+    <!-- Tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+        // SideNav init
+        $(".button-collapse").sideNav();
+        var el = document.querySelector('.custom-scrollbar');
+        Ps.initialize(el);
+    
+        // Animation init
+        new WOW().init();
+    
+        //Modal contact init
+        $('#modal-contact').on('shown.bs.modal', function () {
+          $('#myInput').focus()
+        })
+        
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    </script>
+
+  </div>
+</body>
+</html>

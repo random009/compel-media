@@ -1,0 +1,78 @@
+<% if (post.prev || post.next){ %>
+<!--Previous and next posts-->
+                    <section class="wow fadeIn" data-wow-delay="0.3s">
+                        
+                        <!--First row-->
+                        <div class="row">
+                            
+                            <!--First column-->
+                            <div class="col-md-6">   
+                                
+                                <!--Prev post-->                                                        
+                                <div class="prev-next-post">   
+                                <% if (post.next){ %>
+                                  <a href="<%- url_for(post.next.path) %>" class="waves-effect waves-light">
+
+                                  <!--Image-->
+                                        <img src="http://mdbootstrap.com/images/mini%20(3).jpg">           
+
+                                        <!--Mask-->
+                                        <div class="overlay">
+
+                                            <!--Title-->
+                                            <div class="title-text">
+                                                <p><i class="float-xs-left fa fa-angle-left"></i><%= post.next.title %></p>
+                                            </div>
+
+                                        </div> 
+                                        <!--/.Mask-->      
+
+                                    </a> 
+
+                                </div>
+                                <!--/.Prev post--> 
+                                
+                            </div>
+                            <!--/.First column-->
+
+<!--Second column-->
+                            <div class="col-md-6">   
+                                
+                                <!--Next post-->                                                        
+                                <div class="prev-next-post">                           
+  <% if (post.prev){ %>
+                                    <a href="<%- url_for(post.prev.path) %>" class="waves-effect waves-light"> 
+
+                                        <!--Image-->
+                                        <img src="http://mdbootstrap.com/images/mini%20(4).jpg"> 
+                                        
+                                        <!--Mask-->
+                                        <div class="overlay">
+                                           
+                                            <!--Title-->
+                                            <div class="title-text">
+                                                <p><i class="float-xs-right fa fa-angle-right"></i><% if (post.prev.title){ %>
+          <%= post.prev.title %>
+        <% } else { %>
+          (no title)
+        <% } %></p>
+                                            </div>
+                                            
+                                        </div> 
+                                        <!--/.Mask--> 
+
+                                    </a> 
+
+                                </div>
+                                <!--/.Next post-->
+                                
+                            </div>
+                            <!--/.Second column-->
+                            
+                        </div>
+                        <!--First row-->
+                        
+                    </section>
+                    <!--/.Previous and next posts-->
+<% } %>
+
